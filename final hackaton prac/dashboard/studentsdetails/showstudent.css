@@ -1,0 +1,81 @@
+.header{
+
+}
+/* body{
+    background-image: url(../../assets/images/photo-1541462608143-67571c6738dd.jpg);
+} */
+
+.heading{
+    text-align: center;
+    background-color: rgb(182, 175, 175);
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.header-inner{
+    display: flex;
+}
+
+.headername {
+    width: 20%;
+}
+
+
+
+
+.listofstudents{
+    width: 100%;
+}
+
+.lsits{
+    width: 100%;
+    display: flex;
+}
+
+.listinner{
+    width: 20%;
+    
+}
+
+
+
+
+
+#contain{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    height: auto;
+    width: 300px;
+    margin: 30px auto;
+    text-align: center;
+    border: 1px solid black;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+img{
+    width: 150px;
+    margin-top: 5px;
+}
+.data{
+    margin: 0px 20px;
+    padding: 10px;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.text_name{
+    font-weight: bold;
+}
+
+.card_main{
+    display: flex;
+    flex-wrap: wrap;
+}

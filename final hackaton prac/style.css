@@ -1,0 +1,154 @@
+@font-face {
+    font-family: SF Pro Display-R;
+    src: url(assests/font/sf-pro-display-regular.ttf);
+}
+
+@font-face {
+    font-family: SF Pro Display-l;
+    src: url(assests/font/sf-pro-display-light.otf);
+}
+
+@font-face {
+    font-family: SF Pro Display-b;
+    src: url(./assets/font/sf-pro-display-bold.otf);
+}
+
+
+@font-face {
+    font-family: SF Pro Display-m;
+    src: url(assests/font/sf-pro-display-medium.otf);
+}
+
+.loader_wrapper {
+    position: fixed;
+    background: #2673d1e0;
+    width: 100%;
+    height: 100vh;
+    transition: .5s;
+    z-index: 1;
+
+}
+
+.none {
+    visibility: hidden;
+    opacity: 0.1;
+    transition: .5s;
+
+}
+
+.form {
+    background-image: url(./assets/images/90345-skilled-team.gif);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    padding: 25px 40px;
+}
+
+.from-wrapper {
+    width: 100%;
+}
+
+.form_message,
+.forms {
+    width: 75%;
+    margin: 10px auto;
+}
+
+.form_message p {
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    font-family: SF Pro Display-l;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.form_message h4 {
+    font-family: SF Pro Display-b;
+    font-size: 22px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid hsla(213, 73%, 51%, 0.137) !important;
+    background: #EDF4FC !important;
+    border-radius: 8px;
+    outline: none !important;
+}
+
+.form-control {
+    border: none;
+    background: transparent !important;
+    width: 90%;
+    font-family: SF Pro Display-l;
+    font-size: 14px;
+    border-radius: 8px;
+    outline: none !important;
+}
+
+.form-control:focus {
+    outline: none !important;
+}
+
+.input_group span {
+    width: 10%;
+}
+
+.input_group span i {
+    color: #D2D8DF;
+
+}
+
+.loginbtn {
+    text-align: center;
+}
+
+.loginbtn button {
+    width: 100%;
+    background: #2673D1;
+    font-size: 14px;
+    font-family: 'SF Pro Display-l';
+    border: 1px solid #2673d123;
+    padding: 18px;
+    border-radius: 8px;
+}
+
+.loginbtn button span {
+    color: #F4F8FD;
+    font-size: 16px;
+    font-family: 'SF Pro Display-b';
+}
+
+
+.haveaccount p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    font-family: 'SF Pro Display-l';
+}
+
+.haveaccount p a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#loader{
+    display: none;
+    position: absolute;
+    margin-top: -45px;
+    position: absolute;
+    margin-top: -45px;
+    left: 35%;
+}
+
+#error{
+    color: red;
+}
+
+
+
+

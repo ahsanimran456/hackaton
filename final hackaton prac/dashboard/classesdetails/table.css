@@ -1,0 +1,30 @@
+html {
+    font-family: sans-serif;
+}
+body{
+    text-align: center;
+    background-image: url(../../assets/images/photo-1541462608143-67571c6738dd.jpg);
+    object-fit: contain;
+    background-size: cover;
+}
+ table {
+    border-collapse: collapse;
+    border: 2px solid rgb(14, 11, 11);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    
+}
+
+td,
+th {
+    border: 1px solid rgb(8, 5, 5);
+    padding: 10px 20px;
+}
+
+td {
+    text-align: center;
+}
+
+caption {
+    padding: 10px;
+}
